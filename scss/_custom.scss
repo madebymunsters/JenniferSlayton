@@ -1,0 +1,46 @@
+nav {
+  ul {
+    &.title-area {
+      li {
+        &.name {
+          h1 {
+            a {
+              font-family:$logo-font;
+              font-size:1.5em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.hero {
+  background:url('../images/hero.jpg') center center no-repeat;
+  width:100%;
+  min-height:520px;
+  background-size:cover;
+}
+#intro {
+  padding:4em 0;
+  h1 {
+    color:$primary-color;
+    font-size:1.8em;
+    font-family:$montserrat;
+    font-weight:400;
+  }
+}
+#portfolio {
+  background:$primary-color;
+  padding:3em 0;
+  h2 {
+    color:$white;
+    font-size:1.2em;
+  }
+  .portfolio-items {
+    padding:1em 0 2em;
+  }
+}
+#contact {
+  background:$gray-bg;
+  padding:3em 0;
+}
